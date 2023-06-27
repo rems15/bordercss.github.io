@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+}
+
+.border-sample {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.border-sample p {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+body{
+    background-color: pink;
+}
+
+.border-sample.border-solid {
+    border: 1px solid black;
+}
+
+.border-sample.border-dashed {
+    border: 1px dashed black;
+}
+
+.border-sample.border-dotted {
+    border: 1px dotted black;
+}
+
+.border-sample.border-double {
+    border: 3px double black;
+}
+
+.border-sample.border-groove {
+    border: 3px groove black;
+}
+
+.border-sample.border-ridge {
+    border: 3px ridge black;
+}
